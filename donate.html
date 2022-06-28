@@ -1,0 +1,37 @@
+
+<html>
+    <head>
+  <title>Donate - GST - SOL - USDC </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+        <script src="donate.js"></script>
+    </head>
+    <body>
+
+<div class="container">
+<h2>Donate</h2>
+
+
+<p>Do you like my work and want to give back? Donate Solana:<p> <br />
+<span class="nino">SOL or USDC</span>
+
+<br/><br/>
+
+<p> 👇 Solana address </p> 
+  <div class="alert alert-danger">
+    <strong id="david">9DkNzTGbophUvyQsEDDWwg6KU7fQGjuzeoCmWDKZJTHo</strong> <button onclick="davidc()">Copy</button>
+  </div>
+<br/>
+
+<br/>
+		</div>
+    </body>
+    <script>
+        function davidc(){
+            donate("david");
+            alert("address : '" + document.getElementById("david").innerHTML + "' copied");
+        }
+    </script>
+</html>
